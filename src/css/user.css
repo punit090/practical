@@ -1,0 +1,65 @@
+.userContainer{
+    padding: 50px 0px;
+}
+.userCard{
+    padding: 10px;
+    /* border: 1px solid; */
+    box-shadow: 3px 3px 7px gray;
+    margin: 20px 0px;
+}
+.userTitle{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: serif;
+    padding: 10px 0px;
+}
+img{
+    width: 100%;
+}
+.checkBoxdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.userNavBar{
+    display: flex
+;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    color: #fff;
+    gap: 10px;
+}
+.bookmarkedBtn{
+    text-decoration: none;
+    color: #fff;
+}
+.prviousBtn{
+    background-color: #000 !important;
+    border: none;
+    border-radius: 100px;
+}
+.pagination{
+    align-items: center;
+    gap: 20px;
+    justify-content: end;
+}
+.pageIndicator{
+    border: 1px solid;
+    padding:10px;
+    border-radius: 100px;
+}
+.userTitleNew{
+    border-right: 1px solid;
+    padding-right: 20px;
+}
+.filled{
+    color: gold;
+}
+.refreshLoader{
+    display: flex;
+    justify-content: center;
+    padding: 80px 0px;
+}
